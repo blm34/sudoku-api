@@ -26,6 +26,10 @@ Repository = "https://github.com/blm34/sudoku-api/"
 Issues = "https://github.com/blm34/sudoku-api/issues"
 
 [dependency-groups]
+dev = [
+    "ruff>=0.16.6",
+    "ty>=0.0.78",
+]
 tests = [
     "pytest>=9.1.1",
 ]
